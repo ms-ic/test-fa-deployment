@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "RunSchedule": "0 */5 * * * *"
+  },
+  "prefixUrl": "https://rosteringapi-dev.cargoes.com/POEMS",
+  "loadUrl": "/LoadTask/LoadTask",
+  "nextTimeUrl": "/LoadTask/UpdateNextTasktime?NextTasktime=",
+  "loginUrl": "/Users/Login",
+  "user": "admin",
+  "password": "U2FsdGVkX19ZK6r6K961TuDdN+1Mn1eGYXumcuqDAxY="
+}
